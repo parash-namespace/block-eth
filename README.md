@@ -13,3 +13,9 @@
 ## Steps
 - Download and install [Ganache](https://www.trufflesuite.com/ganache)
 - Install truffle `npm install -g truffle`
+- Cloned from [Github repo](https://github.com/dappuniversity/starter_kit)
+- Install [openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts)
+- Install truffle flattener -> npm i truffle-flattener
+- Truffle Flattener -> flatten the library
+    - ./node_modules/.bin/truffle-flattener ./node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol > src/contracts/ERC721.sol
+- 
